@@ -17,8 +17,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the
-      intersection of creativity and engineering.
+      I occasionally write about design, technology, and share thoughts on the intersection of
+      creativity and engineering.
     </>
   ),
 };
@@ -55,8 +55,8 @@ const home = {
   headline: <>Full-stack and web scraping engineer</>,
   subline: (
     <>
-      I'm Kevin, a happy coder based in Dublin. I like building something
-      digital to make our world better.
+      I'm Kevin, a happy coder based in Dublin. I like building something digital to make our world
+      better.
     </>
   ),
 };
@@ -81,8 +81,8 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Kevin is a Dublin-based full-stack & web scraping engineer with a
-        passion for transforming idea to real, elegant solutions.
+        Kevin is a Dublin-based full-stack & web scraping engineer with a passion for transforming
+        idea to real, elegant solutions.
       </>
     ),
   },
@@ -96,17 +96,13 @@ const about = {
         role: "Full-stack Developer",
         achievements: [
           <>
-            Developed and maintained client on-demand projects using modern
-            JavaScript frameworks like Angular, Next.js
+            Developed and maintained client on-demand projects using modern JavaScript frameworks
+            like Angular, Next.js
           </>,
+          <>Implemented server-side rendering (SSR) to improve performance and SEO optimization.</>,
           <>
-            Implemented server-side rendering (SSR) to improve performance and
-            SEO optimization.
-          </>,
-          <>
-            Built a web scraping tool using Puppeteer to automate data
-            extraction from websites, improving efficiency and reducing manual
-            errors.
+            Built a web scraping tool using Puppeteer to automate data extraction from websites,
+            improving efficiency and reducing manual errors.
           </>,
         ],
         images: [
@@ -130,17 +126,16 @@ const about = {
         role: "Frontend Developer",
         achievements: [
           <>
-            Designed and developed responsive, user-friendly real estate
-            websites with advanced property search, listing management, and
-            interactive maps using Angular.
+            Designed and developed responsive, user-friendly real estate websites with advanced
+            property search, listing management, and interactive maps using Angular.
           </>,
           <>
-            Achieved a 20% increase in user retention by improving UI/UX by
-            implementing new design principles.
+            Achieved a 20% increase in user retention by improving UI/UX by implementing new design
+            principles.
           </>,
           <>
-            Increased code reusability by implementing HOC patterns, reducing
-            future development time by 30%.
+            Increased code reusability by implementing HOC patterns, reducing future development
+            time by 30%.
           </>,
         ],
         images: [
@@ -159,18 +154,16 @@ const about = {
         role: "Senior Software Developer (Full-stack)",
         achievements: [
           <>
-            Developed innovative solutions to tackle big industry problems using
-            Next.js, Nest.js.
+            Developed innovative solutions to tackle big industry problems using Next.js, Nest.js.
           </>,
           <>
-            Wrote well designed, scalable, reliable, testable, and reusable code
-            by using best software development practices, clean code, solid
-            principles and contribute towards the entire development life cycle
-            of analysis, design, implementation, and test.
+            Wrote well designed, scalable, reliable, testable, and reusable code by using best
+            software development practices, clean code, solid principles and contribute towards the
+            entire development life cycle of analysis, design, implementation, and test.
           </>,
           <>
-            Stay up to date with advanced technologies to be able to provide the
-            best solutions for new projects.
+            Stay up to date with advanced technologies to be able to provide the best solutions for
+            new projects.
           </>,
         ],
         images: [],
@@ -183,12 +176,7 @@ const about = {
     institutions: [
       {
         name: "University of Galway",
-        description: (
-          <>
-            Bachelor of Science (Honours) Computer Science and Information
-            Technology
-          </>
-        ),
+        description: <>Bachelor of Science (Honours) Computer Science and Information Technology</>,
       },
       {
         name: "Build the Future",
@@ -214,12 +202,7 @@ const about = {
       },
       {
         title: "Mobile Application Development",
-        description: (
-          <>
-            Able to build beautiful hybrid mobile apps using React Native /
-            Expo.
-          </>
-        ),
+        description: <>Able to build beautiful hybrid mobile apps using React Native / Expo.</>,
         images: [
           {
             src: "/images/projects/project-01/cover-04.jpg",
@@ -231,11 +214,7 @@ const about = {
       },
       {
         title: "Scraping & Automation",
-        description: (
-          <>
-            Familiar with web scraping and automation using Puppeteer, Selenium.
-          </>
-        ),
+        description: <>Familiar with web scraping and automation using Puppeteer, Selenium.</>,
       },
     ],
   },
