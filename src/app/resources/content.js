@@ -91,6 +91,40 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
+        company: "Toolla.net",
+        timeframe: "2022 - Present",
+        role: "Full-stack Developer",
+        achievements: [
+          <>
+            Developed and maintained client on-demand projects using modern
+            JavaScript frameworks like Angular, Next.js
+          </>,
+          <>
+            Implemented server-side rendering (SSR) to improve performance and
+            SEO optimization.
+          </>,
+          <>
+            Built a web scraping tool using Puppeteer to automate data
+            extraction from websites, improving efficiency and reducing manual
+            errors.
+          </>,
+        ],
+        images: [
+          {
+            src: "/images/projects/project-02/cover-02-01.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-02/cover-02-02.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
         company: "My Home",
         timeframe: "2020 - 2022",
         role: "Frontend Developer",
@@ -172,12 +206,6 @@ const about = {
         images: [
           {
             src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
             alt: "Project image",
             width: 16,
             height: 9,

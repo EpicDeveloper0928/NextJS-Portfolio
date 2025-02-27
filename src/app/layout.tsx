@@ -42,7 +42,7 @@ export async function generateMetadata() {
 const primary = Inter({
   variable: "--font-primary",
   subsets: ["latin"],
-  display: "swap",
+  // display: "swap",
 });
 
 type FontConfig = {
@@ -87,11 +87,17 @@ export default async function RootLayout({ children }: RootLayoutProps) {
         primary.variable,
         secondary ? secondary.variable : "",
         tertiary ? tertiary.variable : "",
-        code.variable,
+        code.variable
       )}
     >
       <ToastProvider>
-        <Column style={{ minHeight: "100vh" }} as="body" fillWidth margin="0" padding="0">
+        <Column
+          style={{ minHeight: "100vh" }}
+          as="body"
+          fillWidth
+          margin="0"
+          padding="0"
+        >
           <Background
             mask={{
               cursor: effects.mask.cursor,
