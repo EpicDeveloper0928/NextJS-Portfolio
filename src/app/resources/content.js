@@ -107,13 +107,13 @@ const about = {
         ],
         images: [
           {
-            src: "/images/projects/project-02/cover-02-01.jpg",
+            src: "/images/projects/project-02/cover-02-01.png",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-02/cover-02-02.jpg",
+            src: "/images/projects/project-02/cover-02-11.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
