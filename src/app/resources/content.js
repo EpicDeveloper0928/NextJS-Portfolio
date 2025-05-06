@@ -175,8 +175,8 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Galway",
-        description: <>Bachelor of Science (Honours) Computer Science and Information Technology</>,
+        name: "Tsinghua University",
+        description: <>Bachelor’s degree in Computer Science and Technology </>,
       },
       {
         name: "Build the Future",
