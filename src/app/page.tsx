@@ -1,11 +1,8 @@
-import React from "react";
-
-import { Heading, Flex, Text, Button, Avatar, RevealFx, Arrow, Column } from "@/once-ui/components";
 import { Projects } from "@/components/work/Projects";
+import { Avatar, Button, Column, Flex, Heading, RevealFx, Text } from "@/once-ui/components";
 
 import { baseURL, routes } from "@/app/resources";
-import { home, about, person, newsletter } from "@/app/resources/content";
-import { Mailchimp } from "@/components";
+import { about, home, person } from "@/app/resources/content";
 import { Posts } from "@/components/blog/Posts";
 
 export async function generateMetadata() {

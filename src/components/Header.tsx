@@ -126,6 +126,7 @@ export const Header = () => {
                   />
                 </>
               )}
+               */}
               {routes["/gallery"] && (
                 <>
                   <ToggleButton
@@ -142,7 +143,7 @@ export const Header = () => {
                     selected={pathname.startsWith("/gallery")}
                   />
                 </>
-              )} */}
+              )}
             </Flex>
           </Flex>
         </Flex>

@@ -52,13 +52,8 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Full-stack and web scraping engineer</>,
-  subline: (
-    <>
-      I'm Kevin, a happy coder based in Dublin. I like building something digital to make our world
-      better.
-    </>
-  ),
+  headline: <>Web, Mobile and scraping engineer</>,
+  subline: <>I'm Kevin, who likes to build digital things to make our world better.</>,
 };
 
 const about = {
@@ -67,7 +62,7 @@ const about = {
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
-    subItems: false,
+    subItems: true,
   },
   avatar: {
     display: true,
@@ -80,10 +75,7 @@ const about = {
     display: true,
     title: "Introduction",
     description: (
-      <>
-        Kevin is a Dublin-based full-stack & web scraping engineer with a passion for transforming
-        idea to real, elegant solutions.
-      </>
+      <>I like to solve complex problems with code. That's why I'm being called a developer 😁</>
     ),
   },
   work: {
@@ -92,57 +84,84 @@ const about = {
     experiences: [
       {
         company: "Toolla.net",
-        timeframe: "2022 - Present",
-        role: "Full-stack Developer",
+        timeframe: "2022 - 2025",
+        role: "Frontend Application Engineer",
         achievements: [
           <>
             Developed and maintained client on-demand projects using modern JavaScript frameworks
-            like Angular, Next.js
+            like Angular 16+, Next.js 13+
           </>,
-          <>Implemented server-side rendering (SSR) to improve performance and SEO optimization.</>,
           <>
-            Built a web scraping tool using Puppeteer to automate data extraction from websites,
-            improving efficiency and reducing manual errors.
+            Collaborated with cross-functional teams to design and implement scalable solutions that
+            meet business requirements and user needs.
+          </>,
+          <>
+            Provided innovative solutions to complex problems for UI/UX, resulting in a 20% increase
+            in efficiency and a 30% reduction in development time.
           </>,
         ],
         images: [
           {
             src: "/images/projects/project-02/cover-02-01.png",
-            alt: "Project image",
+            alt: "Browser Forensics Viewer",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-02/cover-02-11.jpg",
-            alt: "Project image",
+            src: "/images/projects/project-02/cover-02-02.png",
+            alt: "Browser Forensics Viewer",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "https://www.youtube.com/watch?v=0IJMbYfE4xw",
+            alt: "Tanbuu AI meeting schedule",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        company: "My Home",
-        timeframe: "2020 - 2022",
-        role: "Frontend Developer",
+        company: "Molequle.io",
+        timeframe: "2021 - 2022",
+        role: "Senior UI/UX Developer",
         achievements: [
           <>
-            Designed and developed responsive, user-friendly real estate websites with advanced
-            property search, listing management, and interactive maps using Angular.
+            Led UI/UX design & implementation of a cutting-edge SaaS CDXP platform using Next.js,
+            TypeScript, and styled-components, delivering a clean, responsive design aligned with
+            user personas and company brand.
           </>,
           <>
-            Achieved a 20% increase in user retention by improving UI/UX by implementing new design
-            principles.
+            Designed and developed browser extensions using React, TypeScript, and Tailwind CSS,
+            delivering seamless integration with both Chrome and Firefox contexts
           </>,
           <>
-            Increased code reusability by implementing HOC patterns, reducing future development
-            time by 30%.
+            Engineered UI components (pop-ups, options panels, content scripts) with React Query to
+            manage background and API data, ensuring performant and state-synced UX across browser
+            tabs.
+          </>,
+          <>
+            Architected data-driven interfaces leveraging React Query for efficient data fetching,
+            caching, and seamless state management across client dashboards, profile views, and
+            analytics modules.
+          </>,
+          <>
+            Collaborated with product managers and backend engineers to define component libraries,
+            design tokens, and scalable layout systems, ensuring consistent UI across both web and
+            mobile-focused marketing products.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "https://cdn.phenomenonstudio.com/wp-content/uploads/2021/09/outputcompress-video-online.com_.mp4",
+            alt: "Molequle",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/cover-05.jpg",
+            alt: "Molequle",
             width: 16,
             height: 9,
           },
@@ -154,16 +173,25 @@ const about = {
         role: "Senior Software Developer (Full-stack)",
         achievements: [
           <>
-            Developed innovative solutions to tackle big industry problems using Next.js, Nest.js.
+            Architected and implemented a scalable frontend architecture using React.js, Redux, and
+            TypeScript, resulting in a 20% improvement in application load times and a 90% in
+            project performance.
           </>,
           <>
-            Wrote well designed, scalable, reliable, testable, and reusable code by using best
-            software development practices, clean code, solid principles and contribute towards the
-            entire development life cycle of analysis, design, implementation, and test.
+            Developed and maintained high-quality mobile applications with over 500,000 users using
+            React Native and TypeScript
           </>,
           <>
-            Stay up to date with advanced technologies to be able to provide the best solutions for
-            new projects.
+            Designed and built RESTful APIs and GraphQL endpoints using Express.js and MongoDB to
+            support mobile and web applications, improving data retrieval speed by 40%.
+          </>,
+          <>
+            Enforced coding standards and best practices through code reviews, pair programming, and
+            automated testing, leading to a 30% reduction in bugs and technical debt.
+          </>,
+          <>
+            Set up and managed CI/CD pipelines using Jenkins and Docker, reducing deployment times
+            by 50% and improving application reliability.
           </>,
         ],
         images: [],
@@ -179,7 +207,7 @@ const about = {
         description: <>Bachelor’s degree in Computer Science and Technology </>,
       },
       {
-        name: "Build the Future",
+        name: "Self-taught",
         description: <>Studied online tutorial and learn by intern.</>,
       },
     ],
@@ -190,7 +218,7 @@ const about = {
     skills: [
       {
         title: "Web Application Development",
-        description: <>Building next gen apps with Next.js, Angular.</>,
+        description: <>Building next gen web apps</>,
         images: [
           {
             src: "/images/projects/project-01/cover-02.jpg",
@@ -202,10 +230,10 @@ const about = {
       },
       {
         title: "Mobile Application Development",
-        description: <>Able to build beautiful hybrid mobile apps using React Native / Expo.</>,
+        description: <>Innovate mobile apps with React Native, Flutter</>,
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
+            src: "/images/projects/project-01/mobile-banner.png",
             alt: "Project image",
             width: 16,
             height: 9,
